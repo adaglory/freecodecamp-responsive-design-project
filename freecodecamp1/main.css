@@ -1,0 +1,77 @@
+.header{
+    margin: 1rem;
+}
+
+
+nav img{
+    width: 20vw;
+    
+}
+.navbar-nav li{
+    padding-right: 2.5rem;
+}
+.input-section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+#form{
+    margin-top: 1.4rem;
+}
+#email{
+    padding: .2rem;
+    width: 15rem;
+    border: 1px solid #808080;
+}
+.btn{
+    background-color: yellow !important;
+    padding: .8rem;
+    margin-top: 1rem;
+    border: none;
+    font-weight: bold !important;
+}
+.container{
+    margin-top: 3.5rem !important;
+}
+#features i{
+    color: darkorange;
+}
+.row{
+    margin-bottom: 1.5rem;
+}
+#how-it-works{
+    width: 100%;
+    text-align: center;
+    
+}
+#pricing{
+    margin-top: 4rem;
+}
+.card-body{
+    text-align: center;
+    margin: 0;
+}
+.card-header{
+    text-align: center;
+    
+}
+
+footer{
+    background-color: #c4c4c4;
+    text-align: end;
+    padding: 1rem;
+}
+footer ul{
+    list-style: none;
+    
+   
+}
+footer li{
+    display: inline;
+}
+footer li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+}
