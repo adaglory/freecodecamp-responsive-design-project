@@ -1,0 +1,148 @@
+.navbar{
+    background-color: #be3144;
+    
+}
+.navbar a{
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat";
+}
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+.welcome h1{
+    color: white;
+    font-size: 3rem;
+}
+.welcome p{
+    color: #be3144;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+.project{
+    background: #45567d ;
+    text-align: center;
+}
+.project h2{
+    color: white;
+    max-width: 640px;
+  margin: 0 auto 6rem auto;
+    border-bottom: 2px solid white;
+}
+.project-image {
+    width: 100%;
+    object-fit: cover;
+    height: 25rem;
+  }
+  .card-project{
+    background: #303841 !important;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 2px !important;
+    margin-bottom: 25px;
+  }
+  .card-project a{
+      color: white;
+  }
+  .projects:hover{
+      text-decoration: none;
+      color: white;
+  }
+  .card-project:hover .code {
+    color: #ff7f50;
+    text-decoration: none;
+  }
+  .code {
+    color: #303841;
+    transition: color 0.3s ease-out;
+  }
+  .project-title{
+      font-size: 19px;
+      margin-top: 10px;
+  }
+  
+  .btn{
+      background: #303841 !important;
+      color: white !important;
+      margin: 5px;
+
+  }
+  .btn i{
+      margin-left: 5px;
+  }
+  .btn:hover{
+    background: #be3144 !important;
+  }
+  .contact{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color:#303841 ;
+      height: 80vh;
+      width: 100%;
+      text-align: center;
+  }
+  .contact-section-header h2{
+      color: white;
+      font-size: 4.5rem;
+      width: 100%;
+  }
+  .contact-section-header p{
+      color: white;
+      font-size: 18px;
+      font-style: italic;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  .contact-links a{
+      color: white;
+      text-decoration: none;
+  }
+  .contact-details {
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    margin-right: 20px;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+    color: white;
+    text-decoration: none;
+    
+  }
+  footer {
+   display: flex !important;
+   justify-content: space-evenly;
+   flex-direction: row;
+    background: #303841;
+    color: white;
+    padding: 1.5rem;
+    border-top: 4px solid #be3144;
+  }
+  
+  footer p{
+    font-size: 20px;
+  }
+  
+  footer i {
+    vertical-align: middle;
+  }
+  footer a{
+      color: white;
+  }
